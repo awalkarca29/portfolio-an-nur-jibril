@@ -1,10 +1,10 @@
 # An-Nur Jibril Awwalul Muharram Al-Prasad Portfolio
 
-Personal portfolio website for An-Nur Jibril Awwalul Muharram Al-Prasad, presenting a professional profile across full-stack development, business analysis, and product strategy.
+Personal portfolio website for An-Nur Jibril Awwalul Muharram Al-Prasad.
 
 ## Overview
 
-This portfolio is designed to introduce An-Nur's background, experience, skills, and selected product case study in a clear website format. The structure follows an overview-to-detail approach: visitors can quickly understand the profile from the homepage, then continue into a dedicated project page for deeper context.
+The website includes An-Nur's background, experience, skills, contact details, and a selected product case study.
 
 ## Portfolio Sections
 

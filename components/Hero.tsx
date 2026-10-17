@@ -8,7 +8,7 @@ export function Hero() {
     <section className="section-shell grid min-h-[calc(100vh-65px)] items-center gap-12 py-16 lg:grid-cols-[1.05fr_0.95fr] lg:py-20">
       <div>
         <p className="eyebrow text-xs font-semibold text-forest">
-          Portfolio 2024-2026
+          Portfolio
         </p>
         <h1 className="mt-5 max-w-5xl text-5xl font-semibold tracking-normal text-ink sm:text-6xl lg:text-7xl">
           An-Nur Jibril Awwalul Muharram Al-Prasad
@@ -18,7 +18,7 @@ export function Hero() {
           Product Strategy.
         </p>
         <p className="mt-5 max-w-2xl text-lg leading-8 text-ink/70">
-          I combine technical execution with product thinking: understanding
+          Combining technical execution with product thinking: understanding
           problems, translating user needs into structured requirements, and
           building practical digital solutions.
         </p>
@@ -27,7 +27,7 @@ export function Hero() {
             href="#project"
             className="inline-flex h-12 items-center gap-2 rounded-full bg-ink px-5 text-sm font-semibold text-white transition hover:bg-forest"
           >
-            View My Work
+            View Projects
             <ArrowRight aria-hidden className="h-4 w-4" />
           </Link>
           <Link
@@ -67,7 +67,6 @@ export function Hero() {
                 priority
                 className="mx-auto h-auto w-full max-w-[260px]"
               />
-              <p className="mt-6 text-sm leading-6 text-white/75"></p>
             </div>
             <div className="p-6 sm:p-8">
               <p className="text-sm font-semibold text-clay">
@@ -83,7 +82,7 @@ export function Hero() {
               </p>
               <Image
                 src="/assets/kenangan-smart-pickup.png"
-                alt="Placeholder mockup for Kenangan Smart Pickup Time"
+                alt="Concept interface for Kenangan Smart Pickup Time"
                 width={620}
                 height={420}
                 className="mt-8 h-auto w-full"

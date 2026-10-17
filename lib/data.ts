@@ -23,8 +23,8 @@ export const heroStats = [
     label: "Growth path across engineering, product, and analysis",
   },
   {
-    value: "45",
-    label: "users involved in the Kenangan pickup research sample",
+    value: "2",
+    label: "interview participants in the Kenangan pickup study",
   },
   {
     value: "12.78 min",
@@ -39,11 +39,11 @@ export const experiences = [
     company: "PT Eluon",
     type: "Professional Experience",
     summary:
-      "Builds and maintains web application features while collaborating across product, technical, and operational contexts.",
+      "Contributes to the design, development, and maintenance of web applications across front-end and back-end layers.",
     highlights: [
-      "Develops front-end and back-end features with attention to usability, maintainability, and business needs.",
-      "Translates requirements into implementation tasks and communicates technical progress with stakeholders.",
-      "Strengthens product thinking by connecting technical decisions with user flows and measurable outcomes.",
+      "Develops web application features with attention to reliability and performance.",
+      "Works with cross-functional teams to translate business requirements into technical solutions.",
+      "Contributed to delivering a production-ready system that passed SIT and UAT within a two-month timeline.",
     ],
   },
   {
@@ -52,24 +52,24 @@ export const experiences = [
     company: "Dibimbing",
     type: "Intensive Training",
     summary:
-      "Completed structured backend training covering API design, database workflows, and practical software delivery.",
+      "Completed a six-month project-based Golang back-end development program.",
     highlights: [
+      "Used Gin Gonic, GORM, JWT authentication, and MySQL in project work.",
       "Practiced REST API development, backend service structure, and database integration.",
-      "Delivered a final project with collaborative planning, implementation, and presentation.",
-      "Built stronger discipline in documentation, debugging, and iterative delivery.",
+      "Received the Most Valuable Performer award at the end of the program.",
     ],
   },
   {
-    period: "2024",
-    role: "KUPS Final Project Contributor",
-    company: "Academic and Project-Based Work",
+    period: "Feb 2023 - Jan 2024",
+    role: "Back-End Developer (Final Project)",
+    company: "KUPS Kalimantan Utara",
     type: "Project Experience",
     summary:
-      "Worked on project planning and implementation activities that connected technical execution with user needs.",
+      "Developed the back-end for the SOBAT-PS Marketplace web and mobile application using Laravel and Lumen.",
     highlights: [
-      "Contributed to requirement exploration, feature planning, and delivery coordination.",
-      "Practiced breaking down user problems into clearer flows and implementation steps.",
-      "Used the experience as a bridge from pure development toward business analysis and product strategy.",
+      "Built the application back-end within a three-month development period.",
+      "Compared Laravel and Lumen through analysis and testing for the project context.",
+      "Maintained the application until the project period ended.",
     ],
   },
 ];
@@ -122,7 +122,7 @@ export const skillGroups = [
 ];
 
 export const projectMetrics = [
-  { label: "Research sample", value: "45 users" },
+  { label: "Interview participants", value: "2" },
   { label: "Displayed estimate", value: "15 min" },
   { label: "Peak-hour actual ready time", value: "27.78 min" },
   { label: "Estimate gap", value: "12.78 min" },
@@ -146,7 +146,7 @@ export const caseStudySections = [
     label: "Research Findings",
     icon: UsersRound,
     title: "Users needed clearer expectations before arriving at the store",
-    body: "The research involved 45 users and validation with 2 informants. The key insight was not only that waiting happened, but that users needed a clearer expectation of when to leave, when to arrive, and whether the store was experiencing delay.",
+    body: "The research involved interviews with 2 participants: one tested Variant A and the other tested Variant B. The key insight was not only that waiting happened, but that users needed a clearer expectation of when to leave, when to arrive, and whether the store was experiencing delay.",
   },
   {
     label: "Solution",

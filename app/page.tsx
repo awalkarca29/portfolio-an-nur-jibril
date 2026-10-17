@@ -19,19 +19,17 @@ export default function Home() {
           <div className="section-shell grid gap-10 lg:grid-cols-[0.85fr_1.15fr]">
             <SectionHeading
               eyebrow="About"
-              title="A developer learning to connect technical execution with product decisions."
-              description="My background in software development helps me understand how digital products are built. Business Analysis and Product Strategy help me ask why a product should be built, what problem it solves, and how user needs become clear product requirements."
+              title="Building useful digital products from idea to implementation."
+              description="Full-stack development experience supported by an interest in business analysis and product strategy."
             />
             <div className="grid gap-5 text-lg leading-8 text-ink/70">
               <p>
-                I am an Information Technology graduate from Brawijaya University with hands-on
-                experience in full-stack development, technical project execution, and team
-                coordination.
+                Information Technology graduate from Brawijaya University with hands-on experience
+                in full-stack development, technical project execution, and team coordination.
               </p>
               <p>
-                My current portfolio direction highlights the bridge between engineering and
-                product work: clear problem framing, research-backed decisions, MVP scoping, and
-                practical implementation.
+                Focused on turning user needs into clear requirements and practical digital
+                solutions.
               </p>
               <div className="flex flex-wrap gap-2 pt-2">
                 {["Full-Stack Development", "Business Analysis", "Product Strategy", "Product Research"].map(
@@ -53,8 +51,8 @@ export default function Home() {
           <div className="section-shell">
             <SectionHeading
               eyebrow="Experience"
-              title="A clear 2024-2026 progression from backend training to professional full-stack work."
-              description="The timeline is structured to show growth, project ownership, and the move toward stronger product and analysis capability."
+              title="Experience in development, projects, and continuous learning."
+              description="Professional and project experience across technical work, product needs, and delivery."
             />
             <ExperienceTimeline />
           </div>
@@ -64,8 +62,8 @@ export default function Home() {
           <div className="section-shell">
             <SectionHeading
               eyebrow="Skills"
-              title="Technical execution, requirement thinking, and product strategy in one profile."
-              description="The skill set is intentionally grouped to make the portfolio easy to scan for both engineering and business analysis opportunities."
+              title="Skills in development, analysis, and product thinking."
+              description="Tools and approaches used to understand problems and build digital solutions."
             />
             <SkillsGrid />
           </div>
@@ -75,8 +73,8 @@ export default function Home() {
           <div className="section-shell">
             <SectionHeading
               eyebrow="Selected Project"
-              title="Overview first, full detail one click away."
-              description="This structure follows the mentor feedback: the homepage gives a concise overview, then the dedicated project page explains the problem, research, solution, MVP, and learning points."
+              title="Kenangan Smart Pickup Time"
+              description="A case study on making pickup-order timing clearer during busy hours."
             />
             <ProjectOverview />
           </div>
@@ -87,11 +85,11 @@ export default function Home() {
             <div>
               <p className="eyebrow text-xs font-semibold text-citron">Contact</p>
               <h2 className="mt-3 text-3xl font-semibold tracking-normal sm:text-4xl">
-                Let us connect for full-stack, business analysis, or product strategy work.
+                Contact Information
               </h2>
               <p className="mt-5 max-w-2xl text-lg leading-8 text-white/70">
-                Replace the placeholder links with your real email, LinkedIn, and GitHub before
-                publishing.
+                Available for opportunities in full-stack development, business analysis, and
+                product strategy.
               </p>
             </div>
             <div className="grid gap-3">

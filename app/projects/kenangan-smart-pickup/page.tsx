@@ -8,15 +8,15 @@ import { caseStudySections, mvpRequirements, projectMetrics } from "@/lib/data";
 const experimentSteps = [
   "Compared the displayed 15-minute pickup estimate with peak-hour actual ready time.",
   "Identified a 27.78-minute peak-hour ready-time condition and a 12.78-minute expectation gap.",
-  "Validated the core problem and solution direction with 2 informants.",
+  "Interviewed 2 participants to test Variants A and B.",
   "Translated the findings into MVP requirements for status, estimate, and notification flows.",
 ];
 
 const learnings = [
-  "A product problem can be hidden inside an operational timing gap.",
-  "Users do not only need speed. They also need confidence and clear expectations.",
-  "A strong MVP should focus on the smallest set of signals that improves decision-making.",
-  "Business analysis work becomes stronger when research findings are translated into concrete product requirements.",
+  "Operational timing can directly affect the customer experience.",
+  "Clearer timing information can help users decide when to arrive.",
+  "The MVP should focus on the information users need most: estimates, status, and updates.",
+  "Research findings became the basis for the MVP requirements.",
 ];
 
 export default function KenanganSmartPickupPage() {
@@ -66,7 +66,7 @@ export default function KenanganSmartPickupPage() {
             <div className="project-visual-grid rounded-[2rem] bg-paper p-6">
               <Image
                 src="/assets/kenangan-smart-pickup.png"
-                alt="Kenangan Smart Pickup Time interface placeholder"
+                alt="Concept interface for Kenangan Smart Pickup Time"
                 width={900}
                 height={620}
                 priority
@@ -79,9 +79,9 @@ export default function KenanganSmartPickupPage() {
         <section className="py-20">
           <div className="section-shell">
             <SectionHeading
-              eyebrow="Overview to Detail"
-              title="From pickup uncertainty to a clearer product requirement set."
-              description="The case study is organized in the same hierarchy recommended by the mentor: concise overview, problem, findings, solution, experimentation, MVP requirements, and key learnings."
+              eyebrow="Case Study"
+              title="From pickup uncertainty to clearer timing information."
+              description="This case study covers the problem, research findings, proposed solution, MVP scope, and key learnings."
             />
             <div className="mt-12 grid gap-4 md:grid-cols-2">
               {caseStudySections.map((section) => {

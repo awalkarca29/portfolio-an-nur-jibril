@@ -40,7 +40,7 @@ export function ProjectOverview() {
         <div className="project-visual-grid bg-paper p-6 sm:p-10">
           <Image
             src="/assets/kenangan-smart-pickup.png"
-            alt="Kenangan Smart Pickup Time placeholder interface mockup"
+            alt="Concept interface for Kenangan Smart Pickup Time"
             width={900}
             height={620}
             className="h-auto w-full"
