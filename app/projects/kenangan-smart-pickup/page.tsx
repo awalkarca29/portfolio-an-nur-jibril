@@ -49,6 +49,9 @@ export default function KenanganSmartPickupPage() {
                 pickup orders could communicate more realistic ready-time
                 expectations during busy hours.
               </p>
+              <p className="mt-4 max-w-2xl text-sm leading-6 text-white/60">
+                Independent academic case study. This project is not affiliated with Kopi Kenangan.
+              </p>
               <div className="mt-9 grid grid-cols-2 gap-4">
                 {projectMetrics.map((metric) => (
                   <div

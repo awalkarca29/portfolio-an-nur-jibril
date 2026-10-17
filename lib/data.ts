@@ -24,7 +24,7 @@ export const heroStats = [
   },
   {
     value: "2",
-    label: "interview participants in the Kenangan pickup study",
+    label: "participants in the A/B usability test",
   },
   {
     value: "12.78 min",
@@ -122,7 +122,7 @@ export const skillGroups = [
 ];
 
 export const projectMetrics = [
-  { label: "Interview participants", value: "2" },
+  { label: "Quantitative dataset", value: "45 users" },
   { label: "Displayed estimate", value: "15 min" },
   { label: "Peak-hour actual ready time", value: "27.78 min" },
   { label: "Estimate gap", value: "12.78 min" },
@@ -146,7 +146,7 @@ export const caseStudySections = [
     label: "Research Findings",
     icon: UsersRound,
     title: "Users needed clearer expectations before arriving at the store",
-    body: "The research involved interviews with 2 participants: one tested Variant A and the other tested Variant B. The key insight was not only that waiting happened, but that users needed a clearer expectation of when to leave, when to arrive, and whether the store was experiencing delay.",
+    body: "The case study combines a quantitative dataset of 45 users, an initial user interview, and A/B usability testing with 2 participants. The findings showed that users needed clearer expectations of when to leave, when to arrive, and whether the outlet was experiencing delays.",
   },
   {
     label: "Solution",
